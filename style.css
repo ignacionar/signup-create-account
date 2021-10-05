@@ -45,7 +45,6 @@ input {
     border: 3px solid white;
     
 }
-
 #pswrd {
     margin-bottom: 15px;
 }
@@ -58,6 +57,12 @@ button {
     background-color: white;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: black;
+    color: white;
 }
 
 a {
@@ -69,4 +74,8 @@ a {
 .a {
     margin-top: 10px;
     text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
 }
